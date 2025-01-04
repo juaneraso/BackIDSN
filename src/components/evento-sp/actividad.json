@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_evento_sp_actividads",
+  "info": {
+    "displayName": "Actividad",
+    "icon": "walk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "descripcion": {
+      "type": "text"
+    },
+    "cantidad_a_ejecutar": {
+      "type": "string"
+    },
+    "entornos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "evento-sp.entorno"
+    },
+    "tecnologias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "evento-sp.tecnologia"
+    },
+    "poblaciones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "evento-sp.poblacion-sujeto"
+    },
+    "unidad_medida": {
+      "type": "string"
+    },
+    "cups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "evento-sp.cups"
+    },
+    "valor_unitario": {
+      "type": "decimal"
+    },
+    "valor_total": {
+      "type": "decimal"
+    },
+    "soportes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "evento-sp.soporte"
+    },
+    "cronograma": {
+      "type": "json"
+    }
+  }
+}

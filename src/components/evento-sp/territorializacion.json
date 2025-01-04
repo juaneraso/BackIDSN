@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_evento_sp_territorializacions",
+  "info": {
+    "displayName": "Territorializacion",
+    "icon": "command",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "numero_hogares": {
+      "type": "integer"
+    },
+    "municipio": {
+      "type": "string"
+    },
+    "territorio": {
+      "type": "string"
+    },
+    "microterritorio": {
+      "type": "string"
+    },
+    "subregion": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_evento_sp_eventos",
+  "info": {
+    "displayName": "Evento",
+    "icon": "chartPie",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "descripcion": {
+      "type": "text"
+    },
+    "ejes_estrategicos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "evento-sp.eje-estrategico"
+    },
+    "lineas_operativa": {
+      "type": "component",
+      "repeatable": true,
+      "component": "evento-sp.linea-operativa"
+    },
+    "productos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "evento-sp.producto"
+    },
+    "proyecto_idsn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "evento-sp.proyecto-idsn"
+    },
+    "indicador_evento": {
+      "type": "string"
+    },
+    "meta_indicador_evento": {
+      "type": "string"
+    },
+    "territorializacion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "evento-sp.territorializacion"
+    },
+    "equipo": {
+      "type": "string"
+    },
+    "perfiles_profesional": {
+      "type": "string"
+    },
+    "perfil_operativo": {
+      "type": "string"
+    }
+  }
+}

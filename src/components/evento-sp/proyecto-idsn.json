@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_evento_sp_proyecto_idsns",
+  "info": {
+    "displayName": "proyecto_idsn",
+    "icon": "command",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "proyecto": {
+      "type": "string"
+    }
+  }
+}

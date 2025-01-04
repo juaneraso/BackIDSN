@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "anexo_tecnicos",
+  "info": {
+    "singularName": "anexo-tecnico",
+    "pluralName": "anexo-tecnicos",
+    "displayName": "Anexo tecnico",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "eventos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "evento-sp.evento"
+    }
+  }
+}
